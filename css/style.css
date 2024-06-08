@@ -1,0 +1,476 @@
+body {
+  background-color: #efe7e3;
+}
+
+.frame {
+  margin: 30px 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+/*******************************
+  ********  navigator bar  ***********
+  ********************************/
+
+.navigator {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  position: relative;
+  top: 2.5em;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 25px;
+  color: #c2b4ab;
+  margin: 0;
+}
+
+.navigator > ul {
+  margin: 0px;
+  display: inline-block;
+  border-radius: 0.35em;
+  box-shadow: inset 0px 0px 1px 1px rgba(0, 0, 0, 0.25);
+  padding: 0 1.5em 0 1.5em;
+}
+
+.navigator > ul > li {
+  display: inline-block;
+  text-align: center;
+  padding: 0 1.5em 0 1.5em;
+  padding-left: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: black;
+  font-size: 20px;
+}
+
+.navigator > ul > li > a,
+.navigator > ul > li > span {
+  display: block;
+  color: rgba(0, 0, 0, 0.75);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.7em;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.25em;
+  height: 5em;
+  line-height: 5em;
+  -moz-transition: all 0.25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  outline: 0;
+}
+
+.navigator > ul > li:hover > a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.site-name {
+  margin: 0;
+  margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  color: #c2b4ab;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  transition: 0.3s;
+}
+
+/**************************************
+  **************  dashboard  ***************
+  ****************************************/
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  margin-top: 90px;
+}
+
+.korean-comment {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.sample:hover {
+  background-color: transparent;
+  color: white;
+  transition: 0.3s;
+  -webkit-text-stroke: 1px black;
+}
+
+.highlight {
+  color: white;
+  -webkit-text-stroke: 1px black;
+}
+
+.type1:hover {
+  background-color: rgba(51, 20, 20, 0.483);
+  transition: 0.3s;
+}
+
+.type2:hover {
+  background-color: rgba(51, 20, 20, 0.483);
+  transition: 0.3s;
+}
+
+.type3:hover {
+  background-color: rgba(51, 20, 20, 0.483);
+  transition: 0.3s;
+}
+
+.english-comment {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  font-style: italic;
+}
+
+/******************************************
+  ****************  recent-menu  ****************
+  (*******************************************/
+
+.recent-menu {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #c2b4ab;
+
+  text-align: right;
+  margin-top: 1%;
+}
+
+/*************************************
+  ***********  recent works  ***************
+  ***************************************/
+
+.recent-works {
+  display: flex;
+  flex-direction: column;
+}
+
+.article1 {
+  display: flex;
+  flex-direction: row;
+  margin: 60px;
+}
+
+.article2 {
+  display: flex;
+  flex-direction: column;
+  margin: 60px;
+}
+
+.thumbnail {
+  width: 400px;
+}
+
+.article-info {
+  margin: 0px 20px;
+  text-align: left;
+}
+
+.article-name {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  margin-top: 0px;
+}
+
+.article-name:hover {
+  color: rgba(51, 20, 20, 0.483);
+  -webkit-text-stroke: 0.2px black;
+}
+
+.article-comment {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.more {
+  width: content;
+  height: content;
+  font-family: "Montserrat", sans-serif;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 0px;
+}
+
+.video {
+  width: auto;
+  height: auto;
+  margin: 30px;
+}
+
+/************************************
+  ***********  profile-section  *************
+  **************************************/
+
+.profile-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 100px 100px;
+}
+
+#profile-picture {
+  width: 400px;
+  margin-right: 60px;
+}
+
+.introduction > h2 {
+  margin: 0px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+  margin-right: 150px;
+}
+
+.introduction > p {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+#capability {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: italic;
+  line-height: 30px;
+}
+
+#capability > a:hover {
+  color: rgba(51, 20, 20, 0.483);
+  text-decoration: underline solid 0.5px rgba(149, 38, 38, 0.253);
+  transition: 0.3s;
+}
+
+.value-menu {
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+  margin: 30px 100px;
+}
+
+/********************************
+  **********  value-section  **********
+  **********************************/
+
+.value-section {
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+  margin: 30px 100px;
+  display: block;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  margin: 100px 150px;
+  margin-top: 20px;
+}
+
+.value {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+  align-items: center;
+}
+
+.value-icon {
+  width: 130px;
+  height: 130px;
+  padding: 10px;
+  border: 2px solid #c2b4ab;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+  display: inline-block;
+}
+
+.value-intro {
+  margin-left: 10px;
+}
+
+.value-name {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 800;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.value-exp {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  margin: 0px;
+}
+
+/*******************************************
+  ****************  footer  *********************
+  ********************************************/
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 200px;
+}
+
+.contact {
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  color: black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+
+.links > a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-left: 15px;
+  margin: 15px;
+}
+
+.links > a:hover {
+  color: rgba(51, 20, 20, 0.483);
+  text-decoration: underline solid 0.5px rgba(149, 38, 38, 0.253);
+  transition: 0.3s;
+}
+
+.work-footer > p {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  font-style: italic;
+  margin: 0;
+  margin-top: 5px;
+}
+
+/*********************************
+  **********   info footer   *************
+  ***********************************/
+
+.footer-comment {
+  text-align: center;
+  margin: 30px;
+}
+
+a[title="big data icons"]:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+/*************************************
+  ***************** 방명록  ***************
+  ***************************************/
+
+.container {
+  width: 50vw;
+  margin: 100px auto;
+  padding: 0px 20px 20px 20px;
+  background: #efe7e38d;
+  box-shadow: 0 0 30px rgba(51, 20, 20, 0.483);
+  border-radius: 10px;
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #333;
+}
+
+.guestbook-author,
+.guestbook-input {
+  width: 100%;
+  font-size: 18px;
+  margin-bottom: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 2px solid #c2b4ab;
+  border-radius: 5px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #c2b4ab;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #a8968b;
+}
+
+.guestbook-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.guestbook-entry {
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  position: relative;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  word-wrap: break-word;
+  border-left: 5px solid #c2b4ab;
+  border-radius: 5px;
+}
+
+.guestbook-entry:hover {
+  background-color: #ddd;
+}
+
+.delete-btn {
+  display: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: rgba(149, 38, 38, 0.253);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 50%;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.guestbook-entry:hover .delete-btn {
+  display: block;
+}
