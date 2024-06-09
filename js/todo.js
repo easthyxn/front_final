@@ -1,4 +1,4 @@
-const host = "http://127.0.0.1:80"; // Ensure this is the correct port where your server is running
+const host = "http://23.23.130.113:8085"; // Ensure this is the correct port where your server is running
 const guestbookContainer = document.querySelector('.guestbook-container');
 
 function getEntries() {
